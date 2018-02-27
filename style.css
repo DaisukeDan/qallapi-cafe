@@ -1,0 +1,126 @@
+@charset "utf-8";
+.cuerpo .cabecera .logo {
+	background-color: #000000;
+	width: 17%;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: left;
+	margin-left: 118px;
+}
+.cuerpo .cabecera {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #000000;
+}
+.menu ul li {
+	color: #FFFFFF;
+	text-decoration: none;
+	list-style-type: none;
+	float: left;
+	height: 50%;
+	margin-top: 1%;
+}
+.cuerpo .piedepagina ul {
+}
+.piedepagina ul li {
+	list-style-type: none;
+	width: 100%;
+	text-align: center;
+}
+
+
+.menu ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: small;
+	float: left;
+	font-family: "Times New Roman", serif;
+	margin-right: 70px;
+	list-style-type: none;
+}
+.cabecera .menu ul {
+	width: 100%;
+}
+
+
+
+.cuerpo {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #000000;
+}
+.cuerpo .cuerpo {
+	width: 100%;
+	margin: auto;
+	float: left;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: auto;
+}
+
+.cuerpo .cuerpo ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in;
+	}
+
+.cuerpo .cuerpo li {
+	width: 100%;
+	list-style: none;
+	}
+
+.cuerpo .cuerpo img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;} 
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+.cuerpo .piedepagina {
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-color: #B10002;
+	color: #FFFFFF;
+	font-family: "Times New Roman", serif;
+	;
+	margin-top: 0%;
+	margin-right: 0%;
+	margin-bottom: 0%;
+	margin-left: 0%;
+	height: 0%;
+	padding-bottom: 0px;
+}
+
+.cuerpo .cabecera .menu {
+	width: 49%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+}
